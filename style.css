@@ -1,0 +1,87 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    color: rgb(68, 68, 68);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 110px;
+    font: 12px / 1.5 微软雅黑, "Microsoft Yahei";
+}
+
+.header {
+    height: 110px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: url(../images/hd-bg1.png) center top no-repeat;
+    display: block;
+    width: 100vw;
+    background-size: cover;
+    transition: all .3s ease-in-out;
+}
+
+.header .logo {
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+
+.header .logo img {
+    height: 240px;
+    display: inline-block;
+}
+
+.header .top {
+    display: block;
+    padding-top: 21px;
+}
+
+.header .top .top-1 {
+    float: left;
+}
+
+.header .top .top-1 a {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 20px;
+    padding: 0 4px;
+    position: relative;
+}
+
+@media screen and (max-width:1440px) and (min-width:980px) {
+    .header {
+        height: 86px;
+    }
+    .header .logo img {
+        height: 185px;
+    }
+}
+
+@media screen and (max-width:980px) and (min-width:750px) {
+    .header {
+        height: 70px;
+    }
+    .header .logo img {
+        height: 145px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .header {
+        height: 50px;
+    }
+    .header .logo img {
+        height: 100px;
+    }
+}
