@@ -23,6 +23,7 @@ body {
     width: 100vw;
     background-size: cover;
     transition: all .3s ease-in-out;
+    text-align: center;
 }
 
 .header .logo {
@@ -42,15 +43,32 @@ body {
 }
 
 .header .top {
-    display: block;
+    display: inline-block;
     padding-top: 21px;
+    width: 75%;
+    max-width: 1300 px;
 }
 
 .header .top .top-1 {
     float: left;
+    /* width: 50vw; */
 }
 
 .header .top .top-1 a {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 20px;
+    padding: 0 4px;
+    position: relative;
+}
+
+.header .top .top-2 {
+    float: right;
+    /* width: 50vw; */
+}
+
+.header .top .top-2 a {
     float: left;
     color: #fff;
     font-size: 14px;
