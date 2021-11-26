@@ -18,7 +18,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: url(../images/hd-bg1.png) center top no-repeat;
+    background: url("../images/hdbg1.png") center top no-repeat;
     display: block;
     width: 100vw;
     background-size: cover;
@@ -51,7 +51,7 @@ body {
 
 .header .top .top-1 {
     float: left;
-    /* width: 50vw; */
+    /* width: 40vw; */
 }
 
 .header .top .top-1 a {
@@ -65,7 +65,8 @@ body {
 
 .header .top .top-2 {
     float: right;
-    /* width: 50vw; */
+    /* width: 40vw; */
+    /* margin-left: 100px; */
 }
 
 .header .top .top-2 a {
