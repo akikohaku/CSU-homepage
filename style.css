@@ -28,16 +28,19 @@ body {
 
 .header .logo {
     text-align: center;
-    position: absolute;
-    width: 100vw;
+    /* position: absolute; */
+    margin: 0px auto;
     top: 0;
     display: block;
     margin: 0;
     padding: 0;
-    z-index: 999;
+    z-index: 0;
 }
 
 .header .logo img {
+    position: absolute;
+    top: 0;
+    margin-left: -175px;
     height: 240px;
     display: inline-block;
 }
@@ -108,6 +111,7 @@ body {
 .nav-l li {
     float: left;
     width: 121px;
+    /* height: auto; */
     position: relative;
     margin: 0;
     list-style: none;
@@ -149,7 +153,7 @@ body {
     position: absolute;
     top: 110px;
     left: 0px;
-    width: 100%;
+    width: 100vw;
     margin-left: 0px;
 }
 
@@ -158,7 +162,7 @@ body {
     content: "";
     z-index: 1;
     height: 10px;
-    width: 100%;
+    width: 100vw;
     margin-top: 58px;
     left: 0px;
     background-color: #0B5AB0;
@@ -281,7 +285,7 @@ body {
     height: 413px;
 }
 
-.txt {
+.yaowen-scroll-item .txt {
     background: url(images/bg-q3.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
@@ -293,7 +297,7 @@ body {
     display: block;
 }
 
-.txt h3 {
+.yaowen-scroll-item .txt h3 {
     display: block;
     font-size: 18px;
     color: #fff;
@@ -305,7 +309,7 @@ body {
     /* text-overflow: ellipsis; */
 }
 
-.txt div {
+.yaowen-scroll-item .txt div {
     display: inline-block;
     font-size: 13px;
     color: #fff;
@@ -402,6 +406,688 @@ body {
     background-position: center center;
     background-size: cover;
     padding: 34px 0 58px;
+    overflow: hidden;
+}
+
+.row2 .wp a li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 17px;
+    height: 3px;
+    background: url(../images/i-q1.png) center center no-repeat;
+    background-size: cover;
+    margin-top: -2px;
+    margin-right: 8px;
+}
+
+.row2 .con-out {
+    text-align: center;
+    float: left;
+    width: 1200px;
+}
+
+.row2 .con-out-2 {
+    display: inline-block;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.row2 .con {
+    float: left;
+}
+
+.row2 h3 {
+    width: 200px;
+    float: left;
+    font-size: 32px;
+    color: #9a9a9a;
+    line-height: 1.25em;
+    font-weight: 400;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: left;
+}
+
+.ul-txt-q4 {
+    height: 170px;
+    margin: 37px -37px 81px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.ul-txt-q4 li {
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+    padding: 0 37px;
+    overflow: hidden;
+}
+
+.ul-txt-q4 .con {
+    display: block;
+    overflow: hidden;
+}
+
+.ul-txt-q4 .date {
+    float: left;
+    width: 61px;
+    font-size: 12px;
+    color: #bad1eb;
+    line-height: 2.67em;
+    text-align: center;
+    background-color: #0059b9;
+    margin-right: 27px;
+    padding: 4px 0 2px;
+    overflow: hidden;
+}
+
+.ul-txt-q4 .date span {
+    display: block;
+    color: #fff;
+    line-height: 1.3em;
+    font-family: Arial;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.ul-txt-q4 .date span em {
+    display: block;
+    font-size: 37px;
+    line-height: 1.3em;
+    margin-bottom: -3px;
+    overflow: hidden;
+    color: #ffcc00;
+}
+
+.ul-txt-q4 .txt {
+    overflow: hidden;
+}
+
+.ul-txt-q4 h3 {
+    float: none;
+    width: 90%;
+    height: 3.5em;
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.75em;
+    font-weight: 400;
+    margin-top: -6px;
+    margin-bottom: 13px;
+    overflow: hidden;
+    transition: .3s;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ul-txt-q4 .info span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 2.43em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ul-txt-q4 .info span i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -2px;
+    margin-right: 12px;
+}
+
+.ul-txt-q4 .desc {
+    height: 6.6em;
+    font-size: 14px;
+    color: #666;
+    line-height: 2.2em;
+    overflow: hidden;
+}
+
+.content {
+    /* margin-top: 50px; */
+    width: 100%;
+}
+
+.content h3 {
+    text-align: center;
+    width: 90%;
+}
+
+.content h3 span {
+    margin-left: 50px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    font-size: 32px;
+    color: #0852a2;
+    line-height: 1.25em;
+}
+
+.content h3 span::before {
+    width: 30%;
+    max-width: 500px;
+    left: 0;
+    content: '';
+    height: 1px;
+    background-color: #0852a2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10vw;
+    transform: translateY(-50%);
+}
+
+.content h3 span::after {
+    width: 30%;
+    max-width: 500px;
+    left: 0;
+    content: '';
+    height: 1px;
+    background-color: #0852a2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 55vw;
+    transform: translateY(-50%);
+}
+
+.polite {
+    width: 1152px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.slick-track {
+    margin-top: 30px;
+    width: 6870px;
+    float: left;
+    position: relative;
+    top: 0;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.slick-slide {
+    display: block;
+    width: 384px;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-track a {
+    text-decoration: none;
+    color: #444;
+    transition: .3s;
+}
+
+.slick-track .date {
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #0852a2;
+    line-height: 1.3em;
+    text-align: center;
+    font-family: Arial;
+    margin-right: 27px;
+    overflow: hidden;
+    width: 61px;
+}
+
+.slick-track .date em {
+    display: block;
+    font-size: 37px;
+    line-height: 1.3em;
+    margin-bottom: -3px;
+    overflow: hidden;
+}
+
+.slick-track .txt {
+    padding-top: 3px;
+    overflow: hidden;
+}
+
+.slick-track h3 {
+    height: 3.5em;
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.75em;
+    font-weight: 400;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.polite-buttons {
+    text-align: center;
+    margin-top: 15px;
+    user-select: none;
+}
+
+.polite-button {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #c9c9c9;
+    display: inline-block;
+    user-select: none;
+}
+
+.row3 {
+    background-image: url(images/bg-q5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0 363px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+}
+
+.row3.cont .wp {
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.g-tit3 h3 {
+    margin-left: 5vw;
+    font-size: 0;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 40px;
+}
+
+.g-tit3 h3 span:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 58px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 12px;
+}
+
+.g-tit3 h3 span:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 58px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: .3s;
+}
+
+.g-tit3 h3 span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 32px;
+    color: #fff;
+    line-height: 1.25em;
+    overflow: hidden;
+}
+
+.m-imgtxt-q1 .top {
+    position: relative;
+    height: 0;
+    padding-top: 98.7%;
+    border: 1px solid #eff4fa;
+    border-radius: 50%;
+    margin-bottom: 21px;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.m-imgtxt-q1 .txt {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.m-imgtxt-q1 .pic {
+    width: 60px;
+    height: 60px;
+    margin: 80px auto 2px;
+    overflow: hidden;
+}
+
+.m-imgtxt-q1 .pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.m-imgtxt-q1 h3 {
+    text-align: center;
+    width: 130px;
+    font-size: 34px;
+    color: #fff;
+    line-height: 1.3em;
+    font-weight: 400;
+    font-family: Arial;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: .3s;
+}
+
+.m-imgtxt-q1 span {
+    height: 2.76em;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.38em;
+    text-align: center;
+    padding: 0 0px;
+    overflow: hidden;
+}
+
+.m-imgtxt-q1 .item {
+    margin: 0 40px;
+}
+
+.m-imgtxt-q1 .pic .img2 {
+    opacity: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    transition: .3s;
+    position: absolute;
+    margin-top: -60px;
+    z-index: 5;
+}
+
+.s1 {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    line-height: 1.5em;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: 10px;
+}
+
+.s1-buttons {
+    text-align: center;
+    margin-top: 15px;
+    user-select: none;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 10px;
+}
+
+.s1-button {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #c9c9c9;
+    display: inline-block;
+    user-select: none;
+}
+
+.row3 .slick-list {
+    width: 1400px;
+    overflow: hidden;
+}
+
+.sub {
+    padding-top: 30px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 19px;
+    top: 76px;
+    width: 858px;
+    height: auto;
+    background: url(images/navbg2.jpg)no-repeat center;
+    background-size: cover;
+    z-index: 10;
+    padding: 30px;
+    border-top: 3px solid #0099ff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    transition: all .5s ease-in-out;
+    display: none;
+}
+
+.sub dl {
+    overflow: hidden;
+    background-size: auto 100%;
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sub dd {
+    float: left;
+    width: 33.3333%;
+}
+
+.sub dd a {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    line-height: 2.88em;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: .3s;
+}
+
+.navpic {
+    float: right;
+}
+
+.navpic img {
+    max-width: 100%;
+}
+
+.side {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.side ul {
+    text-align: right;
+    list-style: none;
+}
+
+.side a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+    font-size: 14px;
+    color: #aed7ff;
+    line-height: 51px;
+    text-align: left;
+    padding: 0 4px;
+    background-color: rgba(0, 59, 122, .7);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.side .i1 {
+    background-image: url(images/i-q11-1.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .i2 {
+    background-image: url(images/i-q12-1.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .i3 {
+    background-image: url(images/i-q13-1.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .i4 {
+    background-image: url(images/i-q14-1.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .i5 {
+    background-image: url(images/i-qyx.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .i6 {
+    background-image: url(images/i-qxx.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .i7 {
+    background-image: url(images/i-q24-1.png);
+    display: block;
+    float: left;
+    width: 51px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: .3s;
+}
+
+.side .li2 {
+    margin-right: -85px;
+    transition: all .5s ease-in-out;
+}
+
+.side .li2:hover {
+    margin-right: 0px;
+}
+
+.side .li2:hover a {
+    background-color: #bc8d00;
+    color: #fff;
+}
+
+.footer {
+    background: url(images/fd-bg1.png) center center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 300px;
+    margin-top: 730px
+}
+
+.gotop {
+    position: fixed;
+    right: 110px;
+    bottom: 50px;
+    width: 50px;
+    height: 60px;
+    z-index: 9999;
+}
+
+.ft-content {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 730px;
+    padding-top: 100px;
+}
+
+.ft-logo {
+    float: left;
+    width: 290px;
+    margin-right: 78px;
+}
+
+.ft-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.ft-addr {
+    font-size: 14px;
+    color: #deebf8;
+    line-height: 2.58em;
     overflow: hidden;
 }
 
