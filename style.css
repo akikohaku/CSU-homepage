@@ -448,14 +448,14 @@ body {
     text-align: left;
 }
 
-.ul-txt-q4 {
+.ultxt {
     height: 170px;
     margin: 37px -37px 81px;
     overflow: hidden;
     list-style: none;
 }
 
-.ul-txt-q4 li {
+.ultxt li {
     margin-top: 30px;
     float: left;
     width: 25%;
@@ -463,12 +463,12 @@ body {
     overflow: hidden;
 }
 
-.ul-txt-q4 .con {
+.ultxt .con {
     display: block;
     overflow: hidden;
 }
 
-.ul-txt-q4 .date {
+.ultxt .date {
     float: left;
     width: 61px;
     font-size: 12px;
@@ -481,7 +481,7 @@ body {
     overflow: hidden;
 }
 
-.ul-txt-q4 .date span {
+.ultxt .date span {
     display: block;
     color: #fff;
     line-height: 1.3em;
@@ -490,7 +490,7 @@ body {
     overflow: hidden;
 }
 
-.ul-txt-q4 .date span em {
+.ultxt .date span em {
     display: block;
     font-size: 37px;
     line-height: 1.3em;
@@ -499,11 +499,11 @@ body {
     color: #ffcc00;
 }
 
-.ul-txt-q4 .txt {
+.ultxt .txt {
     overflow: hidden;
 }
 
-.ul-txt-q4 h3 {
+.ultxt h3 {
     float: none;
     width: 90%;
     height: 3.5em;
@@ -520,7 +520,7 @@ body {
     text-overflow: ellipsis;
 }
 
-.ul-txt-q4 .info span {
+.ultxt .info span {
     display: block;
     font-size: 14px;
     color: #666;
@@ -530,7 +530,7 @@ body {
     text-overflow: ellipsis;
 }
 
-.ul-txt-q4 .info span i {
+.ultxt .info span i {
     display: inline-block;
     vertical-align: middle;
     width: 20px;
@@ -546,7 +546,7 @@ body {
     margin-right: 12px;
 }
 
-.ul-txt-q4 .desc {
+.ultxt .desc {
     height: 6.6em;
     font-size: 14px;
     color: #666;
