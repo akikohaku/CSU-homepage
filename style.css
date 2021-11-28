@@ -18,7 +18,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: url("../images/hdbg1.png") center top no-repeat;
+    background: url(images/hdbg1.png) center top no-repeat;
     display: block;
     width: 100vw;
     background-size: cover;
@@ -183,7 +183,7 @@ body {
     height: 60px;
     text-align: center;
     z-index: 2;
-    background: url("/images/bg-q1.png") center center no-repeat;
+    background: url(images/bg-q1.png) center center no-repeat;
     padding-top: 8px;
 }
 
@@ -254,7 +254,7 @@ body {
     vertical-align: middle;
     width: 17px;
     height: 3px;
-    background: url(../images/i-q1.png) center center no-repeat;
+    background: url(images/i-q1.png) center center no-repeat;
     background-size: cover;
     margin-top: -2px;
     margin-right: 8px;
